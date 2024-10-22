@@ -9,4 +9,4 @@ RUN apt-get update && apt-get install -y \
 
 
 
-ENTRYPOINT ["/lib/systemd/systemd"]
+CMD ["/lib/systemd/systemd"]
